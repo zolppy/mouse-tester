@@ -1,0 +1,19 @@
+@import "./base/base";
+@import "./base/generics";
+@import "./module/description";
+@import "./module/clickableArea";
+@import "./module/mouse/mouse";
+@import "./module/mouse/mouse-buttonsWrapper";
+@import "./module/mouse/mouse-sideButton";
+@import "./module/mouse/mouse-leftButton";
+@import "./module/mouse/mouse-middleButton";
+@import "./module/mouse/mouse-rightButton";
+@import "./module/mouse/mouse-separator";
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2%;
+}
