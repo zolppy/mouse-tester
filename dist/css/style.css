@@ -30,6 +30,8 @@ html body {
   overflow: hidden;
   position: relative;
   width: 24vw;
+  min-width: 320px;
+  max-width: 480px;
 }
 .mouse:hover {
   cursor: pointer;
@@ -43,7 +45,7 @@ html body {
   position: absolute;
   top: 21%;
   transform: translate(-50%, -50%);
-  width: 25vw;
+  width: 345px;
 }
 
 .mouse__side-button {
@@ -64,7 +66,7 @@ html body {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 2vw;
+  width: 8%;
 }
 
 .mouse__separator {
@@ -76,7 +78,7 @@ html body {
   position: absolute;
   top: 70%;
   transform: translate(-50%, -50%);
-  width: 40vw;
+  width: 545px;
   z-index: 1;
 }
 

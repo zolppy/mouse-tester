@@ -1,0 +1,10 @@
+.mouse__buttons-wrapper {
+  aspect-ratio: 1 / .58;
+  border: 1px solid white;
+  display: flex;
+  left: 50%;
+  position: absolute;
+  top: 21%;
+  transform: translate(-50%, -50%);
+  width: 345px;
+}

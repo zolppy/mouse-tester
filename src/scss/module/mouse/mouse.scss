@@ -1,0 +1,14 @@
+.mouse {
+  aspect-ratio: 1 / 1.4;
+  background-color: #222;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  width: 24vw;
+  min-width: 320px;
+  max-width: 480px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
